@@ -1,0 +1,52 @@
+/*月统计  --start*/
+.month-commission {
+  width: 90%;
+  height: 4rem;
+  padding: 0 1.45rem 1rem 1.45rem;
+	text-align: left;
+
+}
+
+.month-customer {
+  position: relative;
+  height: 2rem;
+  padding: 0 1.45rem 1rem 1.45rem;
+  border-bottom: 0.789rem solid #e3e3e3;
+}
+
+.month-customer > div {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.summary-commission{
+	 font-size: 2.5rem;
+}
+/*月统计  --end*/
+/*客户明细 --start*/
+.commission-list {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  padding: 0 1.45rem 0 1.45rem;
+}
+/*客户明细 --end*/
+
+.panel {
+	position: relative;
+  width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.go-arrow {
+  top: 90%;
+  width: 10%;
+  height: 4rem;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
