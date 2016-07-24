@@ -1,8 +1,23 @@
+@font-face {font-family: 'iconfont';
+    src: url('font/iconfont.eot'); /* IE9*/
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:2rem;
+    color: #e3e3e3;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.0087rem;
+    -moz-osx-font-smoothing: grayscale;
+}
 /*月统计  --start*/
 .month-commission {
-  width: 90%;
-  height: 4rem;
-  padding: 0 1.45rem 1rem 1.45rem;
+  height: auto;
+  padding: 1rem 1.45rem 1rem 1.45rem;
 	text-align: left;
 
 }
@@ -10,7 +25,7 @@
 .month-customer {
   position: relative;
   height: 2rem;
-  padding: 0 1.45rem 1rem 1.45rem;
+  padding: 1rem 1.45rem 1rem 1.45rem;
   border-bottom: 0.789rem solid #e3e3e3;
 }
 
@@ -28,11 +43,22 @@
 .commission-list {
   position: relative;
   width: 100%;
-  height: 4rem;
-  padding: 0 1.45rem 0 1.45rem;
+  height: auto;
+}
+.commission-list li,header {
+  padding: 0.8rem 1.45rem 0.8rem 1.45rem;
+  border-top: 0.087rem solid #e3e3e3;
 }
 /*客户明细 --end*/
 
+ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  padding-top: 0.083rem solid #e3e3e3;
+}
 .panel {
 	position: relative;
   width: 100%;
@@ -41,12 +67,10 @@
 	border: 0;
 }
 
-.go-arrow {
-  top: 90%;
-  width: 10%;
-  height: 4rem;
+.next-pos {
+  width: 1rem;
+  height: 100%;
+  float: right;
+  z-index: 101;
   vertical-align: middle;
-}
-ul {
-  list-style: none;
 }
